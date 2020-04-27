@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- GOOGLE ANALYTICS -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-163910408-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-163910408-1');
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BOOTSTRAP CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="./styles.css" />
+
+    <!-- FAVICON FOR LOGO -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <!-- GOOGLE FONTS -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONT AWESOME -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+
+    <title>The Switchup Hairtouch</title>
+  </head>
+  <body>
+    <!-- ============================================ -->
+    <!-- NAVIGATION -->
+    <!-- ============================================ -->
+    <section id="navigation">
+      <div class="container">
+        <nav
+          id="navigation-container"
+          class="navbar navbar-expand-lg navbar-dark fixed-top"
+        >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- NAV ITEMS -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul id="main-menu" class="navbar-nav nav-fill w-100">
+              <li class="nav-item">
+                <a class="home-link nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="pricing-link nav-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="contact-link nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- HOME -->
+    <!-- ============================================ -->
+
+    <section id="home" class="container-fluid">
+      <div class="container">
+        <div class="row mb-md-5">
+          <!-- FACEBOOK ICON -->
+          <div class="col-md-12 col-lg-4 social-media-icon-box">
+            <a
+              href="https://www.facebook.com/theswitchuphairtouch"
+              target="_blank"
+            >
+              <i id="facebook-icon" class="fab fa-facebook"></i
+            ></a>
+          </div>
+
+          <!-- PROFILE IMAGE -->
+          <div class="col-md-12 col-lg-4 text-center">
+            <a
+              href="https://www.facebook.com/theswitchuphairtouch"
+              target="_blank"
+            >
+              <img
+                id="profile-img"
+                src="./images/profile-img.jpg"
+                alt="profile image"
+            /></a>
+          </div>
+
+          <!-- INSTAGRAM ICON -->
+          <div class="social-media-icon-box col-md-12 col-lg-4">
+            <a
+              href="https://www.instagram.com/theswitchup_hairtouch/"
+              target="_blank"
+            >
+              <i class="fab fa-instagram-square"></i
+            ></a>
+          </div>
+        </div>
+
+        <div id="home-contact-btns" class="row flex-column">
+          <!-- FACEBOOK BOOK ME BUTTON -->
+          <div class="col text-center">
+            <button
+              class="facebook-book-me-btn btn download-button"
+              type="button"
+            >
+              <a
+                class="book-me-btn"
+                href="https://www.facebook.com/theswitchuphairtouch"
+                target="_blank"
+              >
+                <i class="far fa-calendar-alt"></i> Book Now
+                <i class="fab fa-facebook"></i
+              ></a>
+            </button>
+          </div>
+
+          <!-- CALL NOW BUTTON -->
+          <div class="col text-center">
+            <button class="call-now-btn btn download-button" type="button">
+              <a class="call-now-link" href="tel:954-299-5195">
+                <i class="fas fa-phone-volume"></i>
+                Call
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- PRICING -->
+    <!-- ============================================ -->
+
+    <section id="pricing">
+      <div class="container">
+        <!-- PRICING ROW -->
+        <div class="row">
+          <!-- PASSION TWISTS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Passion Twists</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/passion-twist.jpg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $200</h4>
+                </div>
+
+                <div class="more-info"></div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- KNOTLESS BOX BRAIDS (ADULTS) -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Knotless Box Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/knotless-box-braids.jpeg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $175</h4>
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BOX BRAIDS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Box Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/passiontwist.jpg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $150</h4>
+                  <!-- <p>$150/md $200/sm $300/xs</p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- MICRO BEADING (SEW-IN) -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Micro Beading (Sew In)</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/microbead extensions.jpeg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $140</h4>
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FEED-IN BRAIDS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Feed-In Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/feed-in-braids.jpeg"
+                alt="feed-in-braids"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $125</h4>
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- CROCHET -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Crochet</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/crochet.jpeg"
+                alt="crochet"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $125</h4>
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- KNOTLESS BOX BRAIDS (KIDS) -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Kids - Knotless Box Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/knotless-box-kids.jpeg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $100</h4>
+                  <!-- <p>$100/md $125/sm $150/xs</p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3-6 FEED-IN BRAIDS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">3-6 Feed-In Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/3-6-feed-in-braids.jpeg"
+                alt="feed-in-braids"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $85</h4>
+                  <!-- <p>Hair Not Included</p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FEED-IN BRAIDS (KIDS) -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Kids - Feed-In Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/feed-in-braids-kids.jpeg"
+                alt="feed-in braids kids"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $75</h4>
+                  <!-- <p>$75/md $100/sm $150/xs</p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- U PART WIGS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">U Part Wigs</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/u-part-wig.jpeg"
+                alt="u part wigs"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $75</h4>
+                  <!-- <p>
+                    $55 - w/hair Glue / $75 - Sew-on Hair
+                    <br />
+                    $125 - Direct Sew-Down
+                  </p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SILK PRESS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Silk Press</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/silk-press.jpeg"
+                alt="Silk Press"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $75</h4>
+                  <!-- <p>
+                    Washing Included
+                  </p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- SINGLE COIL TWISTS/STARTER LOCS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Single Coil Twists/Starter Locs</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/starter-locs.jpeg"
+                alt="starter-locs"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $65</h4>
+                  <!-- <p>
+                              $65 - $150/varying on hair texture
+                            </p> -->
+                </div>
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TWO LARGE FEED-IN BRAIDS -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Two Large Feed-In Braids</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/two-large-braids.jpeg"
+                alt="Two Large Feed-In Braids"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $55</h4>
+                  <!-- <p>
+                    With Weave
+                  </p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BRAIDS AT THE TOP (MEN) -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Braids at the Top (Men)</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/fade-braids.jpeg"
+                alt="fade braids"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $35</h4>
+                  <!-- <p>
+                    $35 - two / $45 - three-five braids
+                    <br />
+                    $65 - small braids
+                  </p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- NATURALS HAIR STYLE -->
+          <div class="col col-xl-4 d-flex justify-content-center mb-5">
+            <div class="card" style="width: 20rem;">
+              <h5 class="card-title">Naturals Hair Style</h5>
+
+              <img
+                class="card-img-top"
+                src="./images/naturals-hair-styling.jpeg"
+                alt="naturals hair style"
+              />
+              <div class="card-body text-center">
+                <div class="card-description">
+                  <h4>Starting at $30</h4>
+                  <!-- <p>
+                    Protective Style
+                  </p> -->
+                </div>
+
+                <!-- BUTTON ROW -->
+                <div class="btn-row row">
+                  <!-- CALL BTN -->
+                  <button class="call-now-btn btn btn-primary">
+                    <a class="call-now-link" href="tel:954-299-5195">
+                      <i class="fas fa-phone-volume"></i>
+                    </a>
+                  </button>
+
+                  <!-- BOOK BTN -->
+                  <button class="book-me-btn btn btn-primary">
+                    <a
+                      class="book-me-btn"
+                      href="https://www.facebook.com/theswitchuphairtouch"
+                      target="_blank"
+                      ><i class="far fa-calendar-alt"></i> Book
+                    </a>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="container text-center mt-5 mb-5">
+            <div class="row">
+              <div class="col-12 col-md-4">
+                <h2>Wash & Dry</h2>
+                <hr />
+                <p>Starting at $15</p>
+              </div>
+              <div class="col-12 col-md-4">
+                <h2>Take Downs</h2>
+                <hr />
+                <p>Starting at $40</p>
+              </div>
+              <div class="col-12 col-md-4">
+                <h2>Traveling Fee</h2>
+                <hr />
+                <p>
+                  $20 - Pines/Miramar Area / $40+ Outside
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- TAKE DOWNS -->
+          <!-- <div class="col col-lg-6 col-xl-4 d-flex justify-content-center mb-3">
+            <div class="card" style="width: 20rem;">
+              <img
+                class="card-img-top"
+                src="./images/passiontwist.jpg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Take Downs</h5>
+                <div class="card-description">
+                  <h5>Starting at $40</h5>
+                  <p>$40-$100/depending on size</p>
+                </div>
+                <a
+                  href="https://www.codewars.com/users/DCasely"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="far fa-calendar-alt"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- WASH & BLOW DRY -->
+          <!-- <div class="col col-lg-6 col-xl-4 d-flex justify-content-center mb-3">
+            <div class="card" style="width: 20rem;">
+              <img
+                class="card-img-top"
+                src="./images/passiontwist.jpg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Wash & Blow Dry</h5>
+                <div class="card-description">
+                  <h5>$15</h5>
+                </div>
+                <a
+                  href="https://www.codewars.com/users/DCasely"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="far fa-calendar-alt"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- TRAVELING FEE -->
+          <!-- <div class="col col-lg-6 col-xl-4 d-flex justify-content-center mb-3">
+            <div class="card" style="width: 20rem;">
+              <img
+                class="card-img-top"
+                src="./images/passiontwist.jpg"
+                alt="passiontwist"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Traveling Fee</h5>
+                <div class="card-description">
+                  <p>
+                    $20 - Pines/Miramar Area <br />
+                    $40+ - Outside Pines/Miramar Area
+                  </p>
+                </div>
+                <a
+                  href="https://www.codewars.com/users/DCasely"
+                  class="btn btn-primary"
+                  target="_blank"
+                  ><i class="far fa-calendar-alt"></i> Book Now
+                </a>
+              </div>
+            </div>
+          </div> -->
+
+          <!-- End of Row -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT -->
+    <!-- ============================================ -->
+
+    <section id="contact">
+      <div class="container">
+        <div class="row text-center">
+          <!-- CONTACT & PHONE NUMBER -->
+          <div id="phone" class="col-12 col-md-4">
+            <h1>Contact</h1>
+            <h2>(954) 299 - 5195</h2>
+            <button class="call-now-btn btn download-button" type="button">
+              <a class="call-now-link" href="tel:954-299-5195">
+                <i class="fas fa-phone-volume"></i>
+                Call
+              </a>
+            </button>
+          </div>
+
+          <!-- THE SWITCHUP HAIRTOUCH -->
+          <div class="col-12 col-md-4 text-center">
+            <h1>The SwitchUp HairTouch</h1>
+            <a
+              href="https://www.facebook.com/theswitchuphairtouch"
+              target="_blank"
+            >
+              <img
+                id="profile-img"
+                src="./images/profile-img.jpg"
+                alt="profile image"
+            /></a>
+            <h2>Toya</h2>
+          </div>
+
+          <!-- ADDRESS -->
+          <div id="address-col" class="col-12 col-md-4">
+            <h1>Address</h1>
+            <p>
+              Mrs Cutz Beauty Salon <br />
+              12121 Pembroke Rd, Pembroke Pines, FL 33025
+            </p>
+            <a
+              href="https://www.facebook.com/theswitchuphairtouch"
+              target="_blank"
+            >
+              <i id="facebook-icon" class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/theswitchup_hairtouch/"
+              target="_blank"
+            >
+              <i class="fab fa-instagram-square"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- JS CUSTOM -->
+    <script src="./navhighlight.js"></script>
+
+    <!-- JS FOR BOOTSTRAP -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
