@@ -281,7 +281,7 @@ a:hover {
 #contact {
   background-color: #000;
   color: #fff;
-  padding: 5% 0;
+  padding: 5% 0 2.5%;
 }
 
 #contact h1,
@@ -307,4 +307,13 @@ a:hover {
 
 #contact .col-12 {
   margin-bottom: 10%;
+}
+
+#contact .copyright {
+  display: block;
+}
+
+#contact .copyright a,
+#contact .copyright a:visited {
+  color: inherit;
 }
