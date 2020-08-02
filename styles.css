@@ -54,6 +54,7 @@ a:hover {
   background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
     url(./images/backgroundimg.png);
   background-size: cover;
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -155,11 +156,17 @@ a:hover {
 /* =============================== */
 
 #pricing {
-  margin: 5% 0 0;
+  background-color: rgb(230, 230, 230);
+  padding: 2.5% 0 0;
+}
+
+#pricing .title {
+  text-align: center;
 }
 
 #pricing .card {
   border: none;
+  background-color: transparent;
 }
 
 #pricing img {
@@ -167,7 +174,6 @@ a:hover {
 }
 
 .card-body {
-  background-color: #fff;
   color: #000;
   padding: 0;
   /* display: flex;
@@ -237,7 +243,10 @@ a:hover {
 
 #pricing .book-me-btn {
   border-radius: 30px;
-  font-weight: 500;
+  font-size: 1.25rem;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 #pricing .call-now-btn {
